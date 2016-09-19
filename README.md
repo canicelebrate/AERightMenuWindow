@@ -1,6 +1,9 @@
 # AERightMenuWindow
-A generic approach for iOS to show view controller as side right menu
+A generic approach for iOS to show view controller as side right menu and inspired by 唐巧 who is the author of the book \<iOS进阶开发\>. You can find some usable knowledge about UIWindow from chapter 12 of the book.
 
+## Implementation
+  Utilize UIWindow to show a view controller as a right side menu. You can specify the width percentage of menu view related to the full screen.
+  Also, you can set the dropback color(normally it's a semi-transparent color) and the animation duration for showing the side menu.
 
 ## Setup
 ### Using [CocoaPods](http://cocoapods.org)
@@ -18,9 +21,9 @@ That's it - now go write a menu with AERightMenuWindow!
 
 ## Usage
 ### Sample Code (Objective-C)
-PureLayout dramatically simplifies writing Auto Layout code. Let's take a quick look at some examples, using PureLayout from Swift.
+AERightMenuWindow simplifies writing right side menu layout in you app. Let's take a quick look at an example,
 
-Here's a constraint between two views created (and automatically activated) using PureLayout:
+Here's a view controller loaded from storyboard and it utilizes AERightMenuWindow to display itself as a right side menu in a designated window.
 
 ```objective-c
 UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
