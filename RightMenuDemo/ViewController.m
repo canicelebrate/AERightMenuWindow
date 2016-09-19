@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "AERightMenuWindow.h"
+#import "MenuViewController.h"
 
 @interface ViewController ()
+- (IBAction)onShowMenuTapped:(id)sender;
 
 @end
 
@@ -26,4 +29,12 @@
 }
 
 
+- (IBAction)onShowMenuTapped:(id)sender {
+    // Step 1: Create your controllers.
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    MenuViewController *frontController = [mainStoryboard instantiateViewControllerWithIdentifier:@"MenuViewController"];
+    //[self addChildViewController:frontController];
+    //[[AERightMenuWindow instance] setRootViewController:frontController];
+    [[AERightMenuWindow instance] showMenu:frontController];
+}
 @end
