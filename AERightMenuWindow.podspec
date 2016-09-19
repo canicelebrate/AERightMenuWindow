@@ -41,7 +41,7 @@ Also, you can set the dropback color(normally it's a semi-transparent color) and
   #
 
   #s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
