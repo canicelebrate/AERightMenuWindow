@@ -7,14 +7,14 @@ A generic approach for iOS to show view controller as side right menu and inspir
 
 ## Setup
 ### Using [CocoaPods](http://cocoapods.org)
-1. Add the pod `PureLayout` to your [Podfile](http://guides.cocoapods.org/using/the-podfile.html).
+1. Add the pod `AERightMenuWindow` to your [Podfile](http://guides.cocoapods.org/using/the-podfile.html).
 
   ```ruby
   pod 'AERightMenuWindow'
   ```
 
 1. Run `pod install` from Terminal, then open your app's `.xcworkspace` file to launch Xcode.
-1. Import the `PureLayout.h` umbrella header.
+1. Import the `AERightMenuWindow.h` umbrella header.
     * Objective-C: `#import "AERightMenuWindow.h"`
 
 That's it - now go write a menu with AERightMenuWindow!
