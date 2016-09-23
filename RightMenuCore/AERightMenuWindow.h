@@ -20,6 +20,6 @@
 @interface AERightMenuWindow : UIWindow
 +(instancetype) instance;
 @property (nonatomic,strong) AERightMenuWindowOptions* options;
-//-(void)setOptions:(AERightMenuWindowOptions*)options;
+
 -(void)showMenu:(UIViewController*)contentVC;
 @end
