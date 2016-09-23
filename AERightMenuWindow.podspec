@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AERightMenuWindow"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A generic approach to show view controller as side right menu in iOS"
 
   # This description is used to generate tags and improve search results.

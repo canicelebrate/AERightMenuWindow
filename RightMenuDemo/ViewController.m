@@ -20,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onAERightMenuNotifyReceived:) name:kAERightMenuWindowHideNotificationKey object:nil];
 }
 
 
@@ -28,6 +29,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)dealloc{
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:kAERightMenuWindowHideNotificationKey object:nil];
+}
 
 - (IBAction)onShowMenuTapped:(id)sender {
     // Step 1: Create your controllers.
@@ -43,5 +47,11 @@
     
     // Step3: Show side menu
     [[AERightMenuWindow instance] showMenu:frontController];
+}
+
+#pragma mark - Event Handlers
+-(void)onAERightMenuNotifyReceived:(NSNotification*)notification{
+    NSDictionary* userInfo = notification.userInfo;
+    NSLog(@"Hided VC is:%@",[userInfo objectForKey:kAERightMenuWindowHideNotificationUserInfoControllerKey]);
 }
 @end

@@ -109,10 +109,15 @@
         [self updateConstraintsIfNeeded];
         [self layoutIfNeeded];
     }completion:^(BOOL finished){
+        [self.contentView endEditing:YES];
         self.beginPinLeftCstrt = nil;
         self.endPinRightCstrt = nil;
         [self resignKeyWindow];
         self.hidden = YES;
+        
+        __weak UIViewController* weakVC = self.rootViewController;
+        NSNotification* notification = [[NSNotification alloc] initWithName:kAERightMenuWindowHideNotificationKey object:nil userInfo:@{kAERightMenuWindowHideNotificationUserInfoControllerKey:weakVC}];
+        [[NSNotificationCenter defaultCenter] postNotification:notification];
     }];
     self.contentView = nil;
 }

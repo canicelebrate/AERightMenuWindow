@@ -11,6 +11,9 @@
 #define kAERightMenuWindowMenuViewWidthPercentageOfFullScreen 0.75f
 #define kAERightMenuWindowAnimationInterval 0.3f
 
+#define kAERightMenuWindowHideNotificationKey   @"AERightMenuWindowHideNotificationKey"
+#define kAERightMenuWindowHideNotificationUserInfoControllerKey   @"Controller"
+
 @interface AERightMenuWindowOptions : NSObject
 @property (nonatomic,strong) UIColor* dropBackColor;
 @property (nonatomic,assign) CGFloat menuViewWidthPercentageOfFullScreen;

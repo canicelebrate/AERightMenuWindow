@@ -26,8 +26,18 @@ AERightMenuWindow simplifies writing right side menu layout in you app. Let's ta
 Here's a view controller loaded from storyboard and it utilizes AERightMenuWindow to display itself as a right side menu in a designated window.
 
 ```objective-c
+// Step 1: Create your controllers.
 UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
 MenuViewController *frontController = [mainStoryboard instantiateViewControllerWithIdentifier:@"MenuViewController"];
+
+// Step2: Customize by define your own options
+AERightMenuWindowOptions* options = [[AERightMenuWindowOptions alloc] init];
+[options setDropBackColor:kAERightMenuWindowDropBackColor];
+[options setAnimationInterval:kAERightMenuWindowAnimationInterval];
+[options setMenuViewWidthPercentageOfFullScreen:0.80f];
+[[AERightMenuWindow instance] setOptions:options];
+
+// Step3: Show side menu
 [[AERightMenuWindow instance] showMenu:frontController];
 ```
 
