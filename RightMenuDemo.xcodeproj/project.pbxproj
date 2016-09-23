@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0807216EEE6C14033E30FACD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D8286F2EC86B6E7697890B /* libPods.a */; };
 		C22196931D8FC7FC00AA10E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C22196921D8FC7FC00AA10E2 /* main.m */; };
 		C22196961D8FC7FC00AA10E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C22196951D8FC7FC00AA10E2 /* AppDelegate.m */; };
 		C22196991D8FC7FC00AA10E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C22196981D8FC7FC00AA10E2 /* ViewController.m */; };
@@ -15,6 +16,11 @@
 		C22196A11D8FC7FC00AA10E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C221969F1D8FC7FC00AA10E2 /* LaunchScreen.storyboard */; };
 		C22196AC1D8FC7FC00AA10E2 /* RightMenuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C22196AB1D8FC7FC00AA10E2 /* RightMenuDemoTests.m */; };
 		C22196B71D8FC7FC00AA10E2 /* RightMenuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C22196B61D8FC7FC00AA10E2 /* RightMenuDemoUITests.m */; };
+		C22197491D95106500AA10E2 /* AERightMenuWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C22197481D95106500AA10E2 /* AERightMenuWindow.m */; };
+		C221974D1D95107C00AA10E2 /* AERightMenuWindow.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C221974A1D95107C00AA10E2 /* AERightMenuWindow.podspec */; };
+		C221974E1D95107C00AA10E2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C221974B1D95107C00AA10E2 /* LICENSE */; };
+		C221974F1D95107C00AA10E2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C221974C1D95107C00AA10E2 /* README.md */; };
+		C22197521D95113600AA10E2 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C22197511D95113600AA10E2 /* MenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		256E392F22CD53997F020B2A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C221968E1D8FC7FC00AA10E2 /* RightMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RightMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22196921D8FC7FC00AA10E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C22196941D8FC7FC00AA10E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,15 @@
 		C22196B21D8FC7FC00AA10E2 /* RightMenuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RightMenuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22196B61D8FC7FC00AA10E2 /* RightMenuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightMenuDemoUITests.m; sourceTree = "<group>"; };
 		C22196B81D8FC7FC00AA10E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C22197471D95106500AA10E2 /* AERightMenuWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AERightMenuWindow.h; sourceTree = "<group>"; };
+		C22197481D95106500AA10E2 /* AERightMenuWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AERightMenuWindow.m; sourceTree = "<group>"; };
+		C221974A1D95107C00AA10E2 /* AERightMenuWindow.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AERightMenuWindow.podspec; sourceTree = "<group>"; };
+		C221974B1D95107C00AA10E2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C221974C1D95107C00AA10E2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C22197501D95113600AA10E2 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		C22197511D95113600AA10E2 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		CAF9043ADCF305DCF5486CFE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D5D8286F2EC86B6E7697890B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0807216EEE6C14033E30FACD /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +98,16 @@
 		C22196851D8FC7FC00AA10E2 = {
 			isa = PBXGroup;
 			children = (
+				C221974A1D95107C00AA10E2 /* AERightMenuWindow.podspec */,
+				C221974B1D95107C00AA10E2 /* LICENSE */,
+				C221974C1D95107C00AA10E2 /* README.md */,
+				C22197461D95106500AA10E2 /* RightMenuCore */,
 				C22196901D8FC7FC00AA10E2 /* RightMenuDemo */,
 				C22196AA1D8FC7FC00AA10E2 /* RightMenuDemoTests */,
 				C22196B51D8FC7FC00AA10E2 /* RightMenuDemoUITests */,
 				C221968F1D8FC7FC00AA10E2 /* Products */,
+				EE94FBF88B94E5168FE6FDB8 /* Pods */,
+				F323C022595F7926B7845DB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +124,8 @@
 		C22196901D8FC7FC00AA10E2 /* RightMenuDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C22197501D95113600AA10E2 /* MenuViewController.h */,
+				C22197511D95113600AA10E2 /* MenuViewController.m */,
 				C22196941D8FC7FC00AA10E2 /* AppDelegate.h */,
 				C22196951D8FC7FC00AA10E2 /* AppDelegate.m */,
 				C22196971D8FC7FC00AA10E2 /* ViewController.h */,
@@ -140,6 +165,32 @@
 			path = RightMenuDemoUITests;
 			sourceTree = "<group>";
 		};
+		C22197461D95106500AA10E2 /* RightMenuCore */ = {
+			isa = PBXGroup;
+			children = (
+				C22197471D95106500AA10E2 /* AERightMenuWindow.h */,
+				C22197481D95106500AA10E2 /* AERightMenuWindow.m */,
+			);
+			path = RightMenuCore;
+			sourceTree = "<group>";
+		};
+		EE94FBF88B94E5168FE6FDB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				256E392F22CD53997F020B2A /* Pods.debug.xcconfig */,
+				CAF9043ADCF305DCF5486CFE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F323C022595F7926B7845DB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5D8286F2EC86B6E7697890B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C22196BB1D8FC7FC00AA10E2 /* Build configuration list for PBXNativeTarget "RightMenuDemo" */;
 			buildPhases = (
+				3DD9F2AEA2AE7F2FE1B42F2B /* Check Pods Manifest.lock */,
 				C221968A1D8FC7FC00AA10E2 /* Sources */,
 				C221968B1D8FC7FC00AA10E2 /* Frameworks */,
 				C221968C1D8FC7FC00AA10E2 /* Resources */,
+				219E8D2186D4CBC43D53D14C /* Embed Pods Frameworks */,
+				A1113B136071938076FC4F9A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,7 +302,9 @@
 			files = (
 				C22196A11D8FC7FC00AA10E2 /* LaunchScreen.storyboard in Resources */,
 				C221969E1D8FC7FC00AA10E2 /* Assets.xcassets in Resources */,
+				C221974D1D95107C00AA10E2 /* AERightMenuWindow.podspec in Resources */,
 				C221969C1D8FC7FC00AA10E2 /* Main.storyboard in Resources */,
+				C221974E1D95107C00AA10E2 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +324,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		219E8D2186D4CBC43D53D14C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DD9F2AEA2AE7F2FE1B42F2B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1113B136071938076FC4F9A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C221968A1D8FC7FC00AA10E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C22196991D8FC7FC00AA10E2 /* ViewController.m in Sources */,
+				C22197521D95113600AA10E2 /* MenuViewController.m in Sources */,
 				C22196961D8FC7FC00AA10E2 /* AppDelegate.m in Sources */,
+				C221974F1D95107C00AA10E2 /* README.md in Sources */,
 				C22196931D8FC7FC00AA10E2 /* main.m in Sources */,
+				C22197491D95106500AA10E2 /* AERightMenuWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +527,7 @@
 		};
 		C22196BC1D8FC7FC00AA10E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 256E392F22CD53997F020B2A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RightMenuDemo/Info.plist;
@@ -431,6 +539,7 @@
 		};
 		C22196BD1D8FC7FC00AA10E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAF9043ADCF305DCF5486CFE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RightMenuDemo/Info.plist;
@@ -505,6 +614,7 @@
 				C22196BD1D8FC7FC00AA10E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C22196BE1D8FC7FC00AA10E2 /* Build configuration list for PBXNativeTarget "RightMenuDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +623,7 @@
 				C22196C01D8FC7FC00AA10E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C22196C11D8FC7FC00AA10E2 /* Build configuration list for PBXNativeTarget "RightMenuDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +632,7 @@
 				C22196C31D8FC7FC00AA10E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

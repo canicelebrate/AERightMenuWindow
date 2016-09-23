@@ -44,9 +44,9 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         s_defaultOptions = [[AERightMenuWindowOptions alloc] init];
-        s_defaultOptions.dropBackColor = [UIColor colorWithWhite:0.1 alpha:0.7];
-        s_defaultOptions.animationInterval = 0.3f;
-        s_defaultOptions.menuViewWidthPercentageOfFullScreen = 0.75f;
+        s_defaultOptions.dropBackColor = kAERightMenuWindowDropBackColor;
+        s_defaultOptions.animationInterval = kAERightMenuWindowAnimationInterval;
+        s_defaultOptions.menuViewWidthPercentageOfFullScreen = kAERightMenuWindowMenuViewWidthPercentageOfFullScreen;
     });
     return s_defaultOptions;
 }

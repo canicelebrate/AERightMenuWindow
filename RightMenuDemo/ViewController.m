@@ -33,8 +33,15 @@
     // Step 1: Create your controllers.
     UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     MenuViewController *frontController = [mainStoryboard instantiateViewControllerWithIdentifier:@"MenuViewController"];
-    //[self addChildViewController:frontController];
-    //[[AERightMenuWindow instance] setRootViewController:frontController];
+    
+    // Step2: Customize by define your own options
+    AERightMenuWindowOptions* options = [[AERightMenuWindowOptions alloc] init];
+    [options setDropBackColor:kAERightMenuWindowDropBackColor];
+    [options setAnimationInterval:kAERightMenuWindowAnimationInterval];
+    [options setMenuViewWidthPercentageOfFullScreen:0.80f];
+    [[AERightMenuWindow instance] setOptions:options];
+    
+    // Step3: Show side menu
     [[AERightMenuWindow instance] showMenu:frontController];
 }
 @end
