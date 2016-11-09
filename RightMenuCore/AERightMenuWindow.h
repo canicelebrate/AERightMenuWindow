@@ -25,4 +25,6 @@
 @property (nonatomic,strong) AERightMenuWindowOptions* options;
 
 -(void)showMenu:(UIViewController*)contentVC;
+
+-(void)hideMenu;
 @end
